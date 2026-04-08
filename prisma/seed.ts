@@ -5,7 +5,8 @@ async function main() {
     data: {
       name: "Alice",
       email: "alice@example.com",
-      password: "securepassword",
+      password: "admin",
+      role:"ADMIN",
       meals: {
         create: [
           {
